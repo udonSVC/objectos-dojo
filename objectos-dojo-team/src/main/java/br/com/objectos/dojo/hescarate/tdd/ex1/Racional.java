@@ -6,7 +6,6 @@
  */
 package br.com.objectos.dojo.hescarate.tdd.ex1;
 
-
 /**
  * @author hellen.escarate@objectos.com.br (Hellen Escarate)
  */
@@ -16,21 +15,12 @@ public class Racional {
   Integer denominador;
 
   public Racional(int numerador, int denominador) {
+    int g = mdc(Math.abs(numerador), Math.abs(denominador));
 
-    if (denominador == 0) {
-
-      throw new IllegalArgumentException();
-
-    } else {
-
-      int g = mdc(Math.abs(numerador), Math.abs(denominador));
-
-      this.numerador = numerador / g;
-      this.denominador = denominador / g;
-
-    }
-
+    this.numerador = numerador / g;
+    this.denominador = denominador / g;
   }
+
   // exercicio que retona o equivalente na forma reduzida >>
   private int mdc(int a, int b) {
 
