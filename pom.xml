@@ -30,5 +30,10 @@
 			<version>6.1.1</version>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+                <dependency>
+                        <groupId>com.google.guava</groupId>
+                        <artifactId>guava</artifactId>
+	                <version>r07</version>
+	        </dependency>
+        </dependencies>
 </project>

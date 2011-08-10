@@ -15,9 +15,17 @@
 */
 package br.com.objectos.dojo.hescarate.tdd.ex1;
 
+import static org.testng.Assert.assertEquals;
+
 /**
  * @author hellen.escarate@objectos.com.br (Hellen Escarate)
  */
 public class TestandoPullRequest {
+
+  public void testandoRevisaoDeCodigo() {
+
+    Racional meio = new Racional(1, 2);
+    assertEquals(meio.toString(), "1,2");
+  }
 
 }
