@@ -26,6 +26,7 @@ public class Racional {
   Integer denominador;
 
   public Racional(int numerador, int denominador) {
+
     Preconditions.checkArgument(denominador != 0);
 
     int g = mdc(Math.abs(numerador), Math.abs(denominador));
@@ -33,6 +34,7 @@ public class Racional {
     this.numerador = numerador / g;
     this.denominador = denominador / g;
   }
+
   private int mdc(int a, int b) {
 
     return b == 0 ? a : mdc(b, a % b);
@@ -57,8 +59,6 @@ public class Racional {
 
     int somaNumerador = this.numerador * denominador + this.denominador * numerador;
     int somaDenominador = this.denominador * denominador;
-
-    return new Racional(somaNumerador, somaDenominador);
 
   }
 
