@@ -60,8 +60,6 @@ public class Racional {
     int somaNumerador = this.numerador * denominador + this.denominador * numerador;
     int somaDenominador = this.denominador * denominador;
 
-    return new Racional(somaNumerador, somaDenominador);
-
   }
 
   public Racional multiplica(Racional outro) {
