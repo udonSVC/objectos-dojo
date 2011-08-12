@@ -15,6 +15,7 @@
 */
 package br.com.objectos.dojo.hescarate.tdd.ex1;
 
+import com.google.common.base.Preconditions;
 
 /**
  * @author hellen.escarate@objectos.com.br (Hellen Escarate)
@@ -25,6 +26,8 @@ public class Racional {
   Integer denominador;
 
   public Racional(int numerador, int denominador) {
+
+    Preconditions.checkArgument(denominador != 0);
 
     int g = mdc(Math.abs(numerador), Math.abs(denominador));
 
