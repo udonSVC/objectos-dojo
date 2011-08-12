@@ -21,50 +21,33 @@ import com.google.common.base.Preconditions;
  * @author hellen.escarate@objectos.com.br (Hellen Escarate)
  */
 public class Racional {
-
-  Integer numerador;
-  Integer denominador;
-
+  int numerador;
+  int denominador;
+  
   public Racional(int numerador, int denominador) {
-
     Preconditions.checkArgument(denominador != 0);
-
     int g = mdc(Math.abs(numerador), Math.abs(denominador));
-
     this.numerador = numerador / g;
     this.denominador = denominador / g;
   }
-
-  private int mdc(int a, int b) {
-
-    return b == 0 ? a : mdc(b, a % b);
-
-  }
-
   public Racional(int i) {
-
     this(i, 1);
-
   }
-
   @Override
   public String toString() {
-    return numerador.toString() + "/" + denominador.toString();
+    return String.format("%d/%d", numerador, denominador);
   }
-
   public Racional soma(Racional numero) {
-
     int numerador = numero.numerador;
     int denominador = numero.denominador;
-
     int somaNumerador = this.numerador * denominador + this.denominador * numerador;
     int somaDenominador = this.denominador * denominador;
     return new Racional(somaNumerador, somaDenominador);
-
   }
-
   public Racional multiplica(Racional outro) {
     return new Racional(numerador * outro.numerador, denominador * outro.denominador);
   }
-
+  private int mdc(int a, int b) {
+    return b == 0 ? a : mdc(b, a % b);
+  }
 }
