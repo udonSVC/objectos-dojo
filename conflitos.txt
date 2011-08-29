@@ -1,2 +1,3 @@
 inserindo a primeira linha no arquivo
 inserindo segunda linha
+inserindo a terceira linha pra ver se dá conflito
