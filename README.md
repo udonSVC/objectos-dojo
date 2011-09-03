@@ -15,6 +15,6 @@ http://www.apache.org/licenses/LICENSE-2.0.html
 
 Todos os artigos presentes no Wiki deste projeto:
 
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Esta <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">obra</span> foi licenciada com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons - Atribuição  3.0 Não Adaptada</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br />Esta obra foi licenciada com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons - Atribuição - Uso Não Comercial - Obras Derivadas Proibidas 3.0 Não Adaptada</a>.
 
-2011 objectos, Fábrica de Software LTDA
+&copy 2011 objectos, Fábrica de Software LTDA
