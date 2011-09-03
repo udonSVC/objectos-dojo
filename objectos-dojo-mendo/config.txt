@@ -1,0 +1,3 @@
+o: configuração a
+o: configuração b 
+o: configuração c 
