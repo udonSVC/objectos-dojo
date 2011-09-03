@@ -1,3 +1,0 @@
-1: config importante
-2: config ainda mais importante. MESMO!
-3: esta config não é tão importante assim...
