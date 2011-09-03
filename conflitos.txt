@@ -1,3 +1,7 @@
 primeira linha
 segunda linha
 terceira linha 
+
+mendo: configuração muito importante
+mendo-meu-alterego: configuração ainda mais importante
+mendo: esta configuração não é tão importante assim
