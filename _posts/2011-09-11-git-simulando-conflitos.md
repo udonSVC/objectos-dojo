@@ -1,3 +1,8 @@
+---
+layout: post
+title: Git Trabalhando em equipe 
+---
+
 # Git: Trabalhando em equipe
 
 ## Introdução
@@ -49,7 +54,7 @@ O módulo deve ter sido criado no kata anterior.
 O arquivo hipotético de configuração chamar-se-á (quem usa mesóclise nos dias de hoje?) `conflitos.txt` (agradável,
 não?). Terminada a diversão, é hora de trabalho. Suponha que a mega-configuração-master requer que três linhas sejam
 adicionadas no arquivo de configuração. Edite o arquivo `conflitos.txt` com o
-[[VIM][https://github.com/objectos/objectos-dojo/wiki/VIM]] e adicione o conteúdo.
+Vim e adicione o conteúdo.
 
     o: config importante
     o: config mais importante ainda

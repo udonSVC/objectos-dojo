@@ -1,12 +1,11 @@
 body {
   color: #444444;
+  font-family: "botanika-web",sans-serif;
 
-  margin: 0 auto;
-  width: 974px;
+  padding-top: 40px;
 }
 
 #bd {
-  font-family: "botanika-web",sans-serif;
 }
 
 #hd {
@@ -21,4 +20,13 @@ body {
     height: 80px;
   }
   border-bottom: 1px solid #e0e0e0;
+}
+
+@splash-offset: 40px;
+
+#splash {
+  background: url("../img/dojo-book.jpg") no-repeat center @splash-offset;
+  height: 264px + @splash-offset;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
