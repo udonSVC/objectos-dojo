@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Git Trabalhando em equipe 
+title: "Git :: Trabalhando em equipe"
+published: true
+tags:
+- git
+- aprendizes
 ---
 
 # Git: Trabalhando em equipe
