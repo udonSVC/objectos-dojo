@@ -14,10 +14,10 @@ tags:
 
 ## Introdução
 
-Aqui será mostrado passo a passo como trabalhar com os artigos que ficarão no Blog Objectos Dojô, e como deve ser o
+Aqui será mostrado passo a passo como trabalhar com os artigos que ficarão neste dojô, e como deve ser o
 padrão de cada um, com o propósito de manter a qualidade do que é produzido por nós da Objectos.
 
-O primeiro passo é certificar-se de que o endereço do origin está correto, ou seja, se realmente o endereço traz o fork
+O primeiro passo é certificar-se de que o endereço do origin está correto, ou seja, se realmente o endereço trás o fork
 do projeto e não o projeto original, pra isso pode ser usado o comando abaixo:
 
 ```
