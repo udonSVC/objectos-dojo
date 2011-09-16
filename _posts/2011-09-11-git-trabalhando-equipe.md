@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Git :: Trabalhando em equipe"
+author: "Hellen Carla Paixão Escarate"
 published: true
 tags:
 - git
 - aprendizes
 ---
-
-# Git: Trabalhando em equipe
 
 ## Introdução
 
@@ -67,7 +66,7 @@ Vim e adicione o conteúdo.
 Satisfeito com seu trabalho, você sincroniza suas alterações com seu repositório Git local através de um commit. 
 
 <div class="alert-message block-message info">
-Novamente, caso não se lembre como fazer um _commit_ volte aos katas anteriores e pratique-os.
+Novamente, caso não se lembre como fazer um <strong>commit</strong> volte aos katas anteriores e pratique-os.
 </div>
 
 ### Be open: receba alterações de sua equipe 

@@ -26,18 +26,66 @@ body {
   min-height: 800px;
 }
 
+.post-meta {
+	font-family: "botanika-web", sans-serif;
+	margin-top: 50px;
+	
+	h1 {
+		border-bottom: 1px solid #e0e0e0;
+		color: #505050;
+		color: #4673A6;
+		font-size: 40px;
+		margin: 0;
+		margin-bottom: 8px;
+		padding-bottom: 8px;
+		text-shadow: 0 1px 1px #c0c0c0;
+	}
+	
+	h2 {
+		margin: 0;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 18px;
+	}
+}
+
 .post {
+	margin-bottom: 100px;
+	
 	@post-margin-bottom: 20px;
 
+	.heading {
+		color: #4673A6;
+		color: #505050;
+		font-family: "botanika-web", sans-serif;
+		text-shadow: 0 1px 1px #c0c0c0;
+	}
+
 	.alert-message {
+		font-family: "botanika-web", sans-serif;
+		font-size: 16px;
+		line-height: 22px;
 		margin-bottom: @post-margin-bottom;
+	}
+	
+	.heading-margin {
+		margin: 1.4em 0 0.5em 0;
+	}
+	
+	.mono {
+		font-family: "botanika-mono-web", monospace;
+		font-size: 15px;
+	}
+	
+	code {
+		.mono;
 	}
 
 	li, p {
 		color: #444444;
 		font-family: "botanika-web",sans-serif;
-		font-size: 1.55em;
-		line-height: 1.55em;
+		font-size: 16px;
+		line-height: 22px;
 	}
 	
 	p {
@@ -45,27 +93,43 @@ body {
 	}
 
 	h1 {
-		color: #4673A6;
-		font-family: georgia, "times new roman", serif;
+		.heading;
+		.heading-margin;
 		font-size: 40px;
-		font-weight: normal;
 		line-height: 45px;
-		text-shadow: 0 1px 1px #c0c0c0;
 	}
 	
 	h2 {
+		.heading;
+		.heading-margin;
+		font-size: 2.1em;
+		line-height: 1.1em;
+	}
+	
+	h3 {
+		.heading-margin;
 		border-bottom: 1px solid #c0c0c0;
-		font-family: "botanika-web",sans-serif;
-		font-size: 2.5em;
-		line-height: 1.2em;
-		
-		margin: 0 0 0.2em 0;
+		color: #404040;
+		font-weight: normal;
 	}
 	
 	ul, ol {
 		margin: 0 0 @post-margin-bottom 40px;
 	}
 	
+	pre {
+		background-color: #444444;
+		border: 2px solid #DEDEDE;
+		border-radius: 3px 3px 3px 3px;
+		color: #ffffff;
+		
+		code {
+			.mono;
+			background-color: transparent;
+			color: #ffffff;
+			padding: 0;
+		}
+	}
 }
 
 @splash-offset: 40px;
