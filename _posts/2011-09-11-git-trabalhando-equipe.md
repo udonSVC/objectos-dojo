@@ -51,7 +51,7 @@ Dentro do seu fork, certifique-se de que esteja dentro do seu módulo
 
 Substitua `login` apropriadamente.
 
-<div class="nota">
+<div class="alert-message block-message info">
 O módulo deve ter sido criado no kata anterior.
 </div>
 
@@ -66,7 +66,7 @@ Vim e adicione o conteúdo.
 
 Satisfeito com seu trabalho, você sincroniza suas alterações com seu repositório Git local através de um commit. 
 
-<div class="nota">
+<div class="alert-message block-message info">
 Novamente, caso não se lembre como fazer um _commit_ volte aos katas anteriores e pratique-os.
 </div>
 
