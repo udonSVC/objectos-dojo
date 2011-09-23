@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-alpha
 title: "Fluxo de trabalho Objectos-dojô"
-published: false
+published: true
 tags:
+- alpha
 - wiki
 - aprendizes
 - fluxo de trabalho
