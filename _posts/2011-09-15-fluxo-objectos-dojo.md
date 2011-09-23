@@ -1,7 +1,7 @@
 ---
 layout: post-alpha
 title: "Fluxo de trabalho Objectos-dojô"
-published: true
+published: false
 tags:
 - alpha
 - wiki
