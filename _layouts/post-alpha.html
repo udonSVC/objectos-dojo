@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="post-meta row">
+  <div class="span14 columns offset1">
+    <h1>{{ page.title }}</h1>
+    <h2>{{ page.author }} <small>em {{ page.date | date: "%d/%m/%Y"}}</small></h2>
+  </div>
+</div>
+<div class="row">
+  <div class="span14 columns offset1">
+  <div class="alert-message warning">
+    <p><strong>Versão ALPHA!</strong> Este artigo está em versão 'Alpha' e, portanto, 
+    não foi ainda revisado corretamente</p>
+  </div>
+  </div>
+</div>
+<div class="post row">
+  <div class="span14 columns offset1">
+    {{ content }}
+  </div>
+</div>
