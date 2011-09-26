@@ -76,18 +76,18 @@ u.png?raw=true)
 Depois que você modificou o projeto provocando esse erro, adicione essa alteração, faça o commit e envie suas
 alterações para a brach master usando o push. (Caso tenha dúvidas sobre os comandos siga o tutorial sobre o Git). 
 
-Depois de ter enviado suas alterações para sua branch master, entre no `jenkins`, e clique em `jenkins` (à esquerda
+Depois de ter enviado suas alterações para sua branch master, entre no **jenkins**, e clique em **jenkins** (à esquerda
 acima):  
 
 ![entrarnojenkins](https://github.com/objectos/objectos-dojo-img/blob/master/integracaocontinua/integragracaocontinua3.
 png?raw=true)
 
-Escolha o projeto `dojo`
+Escolha o projeto **dojo**
 
 ![escolhaoprojetodojo](https://github.com/objectos/objectos-dojo-img/blob/master/integracaocontinua/2integracaocontinua
 jenkis.png?raw=true)
 
-Observe que aparece um ícone amarelo em `s` (Status of the last build), o que significa que a construção no jenkins está
+Observe que aparece um ícone amarelo em **s** (Status of the last build), o que significa que a construção no jenkins está
 instável. Então precisamos descobrir qual parte do projeto introduziu o erro, e pra isso clique no nome do projeto para
 mais detalhes: 
 
@@ -99,12 +99,12 @@ Na tela que segue você pode observar alguns gráficos e também as opções aba
 ![menuintegracaocontinua](https://github.com/objectos/objectos-dojo-img/blob/master/integracaocontinua/3integracaoconti
 nua.png?raw=true)
 
-Clique em `Latest Test Result` (inclusive você pode observar que aparece 1 failure / + 1). 
+Clique em **Latest Test Result** (inclusive você pode observar que aparece 1 failure / + 1). 
 
 ![imagem testeresult](https://github.com/objectos/objectos-dojo-img/blob/master/integracaocontinua/4integracaocontinua.
 png?raw=true)
 
-Podemos ver conforme a imagem acima, em Test Result que aparece o módulo `br.com.objectos:objectos-dojo-team`. Então 
+Podemos ver conforme a imagem acima, em Test Result que aparece o módulo **br.com.objectos:objectos-dojo-team**. Então 
 clique nele para mais informações. 
 
 Na tela que segue, podemos ver mais detalhes como o teste que falhou, e também os pacotes.
@@ -112,8 +112,8 @@ Na tela que segue, podemos ver mais detalhes como o teste que falhou, e também 
 ![imagem all test result](https://github.com/objectos/objectos-dojo-img/blob/master/integracaocontinua/5integracaoconti
 nua3.png?raw=true)
 
-Observe que no pacote `br.com.objectos.dojo.hescarate.tdd.ex1` apresenta 1 em `Fail`, vamos então clicar nesse pacote
-para ver os detalhes. 
+Observe que no pacote **br.com.objectos.dojo.hescarate.tdd.ex1** apresenta 1 em **Fail**, vamos então clicar nesse
+pacote para ver os detalhes. 
 
 Na sequência aparece a classe TreinoDeTDD, onde vamos clicar também:  
 
@@ -150,7 +150,7 @@ Agora então precisamos solucionar o erro que provocamos, e enviar as atualizaç
 
 Depois que você corrigiu o erro, e enviou as atualizações para a branch master, vamos dar mais uma olhada no jenkins. 
 
-Assim que você escolher o projeto dojo e clicar no nome do projeto, observe à esquerda a `Build History`, onde podemos
+Assim que você escolher o projeto dojo e clicar no nome do projeto, observe à esquerda a *Build History*, onde podemos
 ver um histórico de todos os Builds, conforme a imagem abaixo: 
 
 ![buildhistory](https://github.com/objectos/objectos-dojo-img/blob/master/integracaocontinua/11buildhistory.png?raw=tru
@@ -177,7 +177,7 @@ construção voltou para estável:
 ![e-mails jenkins2](https://github.com/objectos/objectos-dojo-img/blob/master/integracaocontinua/14integracaocontinuaem
 ailjenklins.png?raw=true)
 
-Um outro detalhe é que você mesmo pode rodar o projeto no jenkis, em `build now` no menu à esquerda, conforme a
+Um outro detalhe é que você mesmo pode rodar o projeto no jenkis, em **build now** no menu à esquerda, conforme a
 imagem abaixo: 
 
 ![build now](https://github.com/objectos/objectos-dojo-img/blob/master/integracaocontinua/15integracaocontinuabuildnow.
@@ -189,10 +189,10 @@ Mas evite fazer isso sem necessidade com projetos em produção, até porque, as
 jenkis faz isso automaticamente. 
  
 
-## REFERÊNCIAS:
+## Referências 
 
-Blog Caelum: http://blog.caelum.com.br/integracao-continua/ (acesso em 09/08/2011 14h52) 
+[Blog Caelum - acesso em 09/08/2011 14h52](http://blog.caelum.com.br/integracao-continua/)  
 
-_Artigo escrito por Hellen Escarate_
+Artigo escrito por Hellen Escarate
 
 
