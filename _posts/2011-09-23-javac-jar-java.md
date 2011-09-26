@@ -356,14 +356,14 @@ fique claro de ser resolvido, pois esse é o diferencial de um verdadeiro progra
 
 ## Referências 
 
-man java
+* man java
 
-man jar
+* man jar
 
-[Criando arquivos jar executáveis](http://csdl.ics.hawaii.edu/~johnson/613f99/modules/04/jar-files.html),
-acessado em 09/09/2011 às 11h19. 
+* [Criando arquivos jar executáveis - acessado em 09/09/2011 às 11h19.](http://csdl.ics.hawaii.edu/~johnson/613f99/module
+s/04/jar-files.html)
 
-SIERRA. Kathy, BLATES, Bert. CERTIFICAÇÃO SUN PARA PROGRAMADOR JAVA 6 - GUIA DE ESTUDO (EXAME 310-065). Alta Books,
+* SIERRA. Kathy, BLATES, Bert. CERTIFICAÇÃO SUN PARA PROGRAMADOR JAVA 6 - GUIA DE ESTUDO (EXAME 310-065). Alta Books,
 2006. 
 
 Artigo escrito por Hellen Escarate
