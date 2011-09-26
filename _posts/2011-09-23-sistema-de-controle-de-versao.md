@@ -49,8 +49,8 @@ Se você estiver usando um sistema de controle de versão pode ficar tranquilo.
 
 Vamos ver tudo isso na prática logo mais.  
 
-## REFERÊNCIAS
+## Referências
 
-Slides sobre Sistema de Controle de versão - Prof. Evaldo Junior 
+* Slides sobre Sistema de Controle de versão - Prof. Evaldo Junior 
 
 Artigo escrito por Hellen Escarate
