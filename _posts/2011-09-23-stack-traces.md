@@ -15,6 +15,8 @@ tags:
 
 ## Stack Traces
 
+Situações teste
+
 Muitas vezes quando desenvolvemos um aplicativo existem situações onde o inusitado acontece, a aplicação para e uma
 mensagem assustadora de erro acaba surgindo no terminal, a mensagem é tão grande que logo entramos em desespero não 
 sabendo por onde começar a leitura do "erro", estas mensagens que são "assustadoras" são conhecidas como Stack Traces e
