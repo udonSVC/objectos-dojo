@@ -164,11 +164,11 @@ usada para associar seu commit a sua conta do Github.
     $ git config --global user.name "Nome Sobrenome"
     $ git config --global user.email "seu_e-mail@objectos.com"
 
-(O nome deve ser seu nome real e não seu nome de usuário no Github)
+Obs: O nome deve ser seu nome real e não seu nome de usuário no Github. 
 
 É importante certificar-se que no Github o e-mail é o mesmo que foi adicionado acima. Caso contrário seus commits podem
-não aparecer. Para confirmar vá no Github em **Accont Settings** > **Email adresses** e confirme se o e-mail cadastrado é
-seuemail@objectos.com.br.  
+não aparecer. Para confirmar vá no Github em *Accont Settings* e escolha a opção *Email adresses* e confirme se o e-mail
+cadastrado é seuemail@objectos.com.br.  
 
 Outro detalhe importante é verificar se no [Gravatar](http://en.gravatar.com/) o e-mail cadastrado também é o mesmo (que foi
 cadastrado acima). Caso contrário provavelmente sua imagem não aparecerá.  
