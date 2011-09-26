@@ -168,12 +168,12 @@ podemos corrigir falhas em nossas aplicações pois o mesmo nos indica todo o flux
 execuções e os respectivos pontos onde ocorreram as exceções, com isso ele deixou de ser apenas uma mensagem de erro e 
 se tornou em um grande aliado nosso.
 
-## *Referências*
+## Referências
 
-SIERRA, Kathy. BATES, Berty. Use a Cabeça, Segunda edição
+* SIERRA, Kathy. BATES, Berty. Use a Cabeça, Segunda edição
 
-http://macoli.wordpress.com/2010/02/20/noobs-e-stacktraces/
+* [Macoli](http://macoli.wordpress.com/2010/02/20/noobs-e-stacktraces/)
 
-http://javafree.uol.com.br/topic-882405-FAQ-Stack-Trace.html
+* [Java Free](http://javafree.uol.com.br/topic-882405-FAQ-Stack-Trace.html)
 
 *Artigo escrito por Marcos Piazzolla.*		
