@@ -96,13 +96,13 @@ raw=true)
 Agora abra novamente o pull request informando que as alterações foram feitas, solicitando novamente a revisão de
 código. 
 
-## REFERÊNCIAS
+## Referências
 
-http://en.wikipedia.org/wiki/Code_review
+* [Wikipedia](http://en.wikipedia.org/wiki/Code_review)
 
-http://handbook.thoughtbot.com/communication/feature-branch-code-reviews/
+* [Handbook](http://handbook.thoughtbot.com/communication/feature-branch-code-reviews/)
 
-http://labs.moip.com.br/2010/10/20/guia-pratico-contribuindo-com-projetos-do-moip-no-github-remotes-fetches-pull-request
-s-e-issues/
+* [Labs.moip](]http://labs.moip.com.br/2010/10/20/guia-pratico-contribuindo-com-projetos-do-moip-no-github-remotes-fetc
+hes-pull-requests-e-issues/)
 
 Esse artigo foi escrito por Hellen Escarate
