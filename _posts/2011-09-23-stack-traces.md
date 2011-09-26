@@ -13,7 +13,7 @@ tags:
 - aprendizes
 ---
 
-# Stack Traces #
+## Stack Traces
 
 Muitas vezes quando desenvolvemos um aplicativo existem situações onde o inusitado acontece, a aplicação para e uma
 mensagem assustadora de erro acaba surgindo no terminal, a mensagem é tão grande que logo entramos em desespero não 
@@ -24,7 +24,7 @@ aparecem para nos ajudar, vamos deixar de lado o medo e entender de vez o que um
 Mas antes mesmo de começar a tratar de Stack Traces e forçar erros para que as mesmas ocorram, vamos falar de um 
 conceito que será de grande ajuda para o entendimento do que foi dito acima, vamos falar sobre a pilha de execuções.
 	
-# Pilha de Execuções #
+## Pilha de Execuções 
 
 Vamos utilizar um exemplo para esclarecer este conceito de pilha de execução, atente a amostra de código abaixo:
 
@@ -66,7 +66,7 @@ imprimindo:
 Agora que sabemos o que é a pilha de execuções e como as coisas funcionam em um programa Java, podemos dar continuidade
 ao que estávamos discutindo anteriormente. As Stack Traces.
 
-# Como as Stack Traces ocorrem ?
+## Como as Stack Traces ocorrem ?
 
 As Stack Traces surgem toda vez que o fluxo de um programa na pilha de execuções é interrompido por uma exceção, assim a
 mensagem de erro é lançada apontando todo o fluxo da pilha de execuções e os possíveis pontos onde a exceção ocorreu. 
@@ -127,7 +127,7 @@ realizar uma operação matemática ilegal, lendo a primeira linha percebemos isso 
 Agora ficou fácil pois encontramos o causador de nossos problemas, o próximo passo é tratar a exceção para que este erro
 jamais aconteça novamente.
 	
-# Corrigindo o problema #
+## Corrigindo o problema 
 
 Conseguimos forçar nossa exceção para que uma Stack Trace ocorresse, mas como evitar que algo assim acabe acontecendo?
 
