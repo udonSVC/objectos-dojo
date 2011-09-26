@@ -7,7 +7,10 @@ tags:
 - git
 - aprendizes
 - introdução
+- commit não aparece
 ---
+
+## Introdução 
 
 No tutorial anterior, vimos um pouco sobre o sistema de controle de versão. 
 
@@ -17,16 +20,30 @@ O GIT é um sistema de controle de versão distribuído (vamos falar com detalhe
 
 Só uma curiosidade: O pai do GIT é o Linus Torvalds, e ele foi criado para controlar o desenvolvimento do Kernel Linux. 
 
+# Definir seu nome de usuário e e-mail
+
+Antes de praticar e fazer qualquer **commit**, é importante definir seu nome de usuário e e-mail, pois essa informação é
+usada para associar seu commit a sua conta do Github. 
+
+    $ git config --global user.name "Nome Sobrenome"
+    $ git config --global user.email "seu_e-mail@youremail.com"
+
+(O nome deve ser seu nome real e não seu nome de usuário no Github)
+
+É importante certificar-se que no Github o e-mail é o mesmo que foi adicionado acima. Caso contrário pode ser que os
+seus commits não apareçam. Para confirmar essa informação, no Github vá em ****
+
+
 ## Praticando
 
-É fundamental que você esteja `afiado` no uso do GIT, porque vamos usá-lo com muita frequência.
+É fundamental que você esteja **afiado** no uso do GIT, porque vamos usá-lo com muita frequência.
 
 Por isso, preparamos os próximos tópicos, para que aqui, você possa treinar as operações básicas, e se caso algo
 sair errado, não tem problema, essa é a hora de errar.
 
 Então, vamos lá, siga para o próximo passo. 
 
-## CRIANDO CHAVES PÚBLICAS E PRIVADAS 
+### Criando chaves públicas e privadas  
 
 Porque precisamos criar essas chaves?
 
@@ -38,7 +55,7 @@ Então para gerar as chaves SSH, execute o comando abaixo:
 
 Depois que você executar esse comando, vai aparecer uma mensagem dizendo pra você entrar com um arquivo para salvar a
 chave, se você não digitar nada ele vai deixar no endereço padrão. É o que vamos fazer. Portanto, depois que aparecer a
-mensagem abaixo, clique em `Enter`. 
+mensagem abaixo, clique em **Enter** . 
 
     Enter file in which to save the key (/home/usuario/.ssh/identity):
 
@@ -48,7 +65,8 @@ necessário redigitá-la conforme segue abaixo:
     Enter passphrase (empty for no passphrase): (enter a passphrase)
     Enter same passphrase again: (enter it again)
 
-Depois que você cadastrou a senha, aparece uma mensagem de que as chaves foram salvas no diretório .ssh, conforme segue abaixo: 
+Depois que você cadastrou a senha, aparece uma mensagem de que as chaves foram salvas no diretório .ssh, conforme segue
+abaixo: 
 
     Your identification has been saved in /home/usuario/.ssh/identity.
     Your public key has been saved in /home/usuario/.ssh/identity.pub.
@@ -73,7 +91,7 @@ Assim que você executou o comando acima, vai aparecer algo semelhante, que é a
 
 Certo, depois de ter gerado a chave pública, é necessário cadastrá-la no Github: https://github.com/
 
-## Github
+### Github
 
 O Github é um serviço muito interessante, onde é possível compartilhar projetos, de maneira que todos possam
 contribuir com o código.
@@ -87,28 +105,28 @@ Vai aparecer então uma tela, como essa abaixo:
 
 ![criandoconta](https://github.com/objectos/objectos-dojo-img/blob/master/github/1_criandoconta.png?raw=true)
 
-Depois que você preencher os dados, clique no botão `Create an account`, que ficará destacado em azul quando você
+Depois que você preencher os dados, clique no botão **Create an account**, que ficará destacado em azul quando você
 passar o mouse em cima:
 
 ![new account](https://github.com/objectos/objectos-dojo-img/blob/master/github/2_clicaremcreatenewaccount.png?raw=true)
 
 Pronto! Agora você tem uma conta no Git Hub! 
 
-O próximo passo é inserir a sua chave pública, pra isso, clique em `Account Settings` que fica num menu lá em cima,
+O próximo passo é inserir a sua chave pública, pra isso, clique em **Account Settings** que fica num menu lá em cima,
 à direita, como podemos ver em destaque abaixo:
 
 ![account settings](https://github.com/objectos/objectos-dojo-img/blob/master/github/3_configuracoesgit.png?raw=true) 
 
-Agora que você clicou em `Account Settings` vai aparecer um outro menu, mais abaixo, à esqueda. Nesse menu você vai
-escolher a opção `SSH Public Keys`: 
+Agora que você clicou em **Account Settings** vai aparecer um outro menu, mais abaixo, à esqueda. Nesse menu você vai
+escolher a opção **SSH Public Keys**: 
 
 ![ssh public keys](https://github.com/objectos/objectos-dojo-img/blob/master/github/4_inserindochave.png?raw=true)
 
-Veja que aparece à direita a opção `Add another public key`
+Veja que aparece à direita a opção **Add another public key**
 
 ![another public key](https://github.com/objectos/objectos-dojo-img/blob/master/github/5_inserirchavepublica.png?raw=true)
 
-Clique nessa opção, e vai aparecer conforme a imagem abaixo. O campo `Key` é onde vamos colar a sua chave pública: 
+Clique nessa opção, e vai aparecer conforme a imagem abaixo. O campo **Key** é onde vamos colar a sua chave pública: 
 
 ![colar chave publica](https://github.com/objectos/objectos-dojo-img/blob/master/github/7_chavepublica_a_inserir.png?raw=true)
 
@@ -136,20 +154,37 @@ conforme a tela abaixo:
 ![ok](https://github.com/objectos/objectos-dojo-img/blob/master/github/8_chavepublica.png?raw=true)
 
 Ok! Agora que criamos uma conta no Git Hub e adicionamos a chave pública vamos para o próximo passo que é importar o
-projeto.
+projeto. 
 
-## IMPORTANDO PROJETOS
+#### Definir seu nome de usuário e e-mail
+
+Antes de mais nada, e de fazer qualquer **commit**, é importante definir seu nome de usuário e e-mail, pois essa informação é
+usada para associar seu commit a sua conta do Github.
+
+    $ git config --global user.name "Nome Sobrenome"
+    $ git config --global user.email "seu_e-mail@objectos.com"
+
+(O nome deve ser seu nome real e não seu nome de usuário no Github)
+
+É importante certificar-se que no Github o e-mail é o mesmo que foi adicionado acima. Caso contrário seus commits podem
+não aparecer. Para confirmar vá no Github em **Accont Settings** > **Email adresses** e confirme se o e-mail cadastrado é
+seuemail@objectos.com.br.  
+
+Outro detalhe importante é verificar se no [Gravatar](http://en.gravatar.com/) o e-mail cadastrado também é o mesmo (que foi
+cadastrado acima). Caso contrário provavelmente sua imagem não aparecerá.  
+
+### Importando Projetos 
 
 No Github, vá na página da Objectos, no projeto objectos-dojo:
 
 https://github.com/objectos/objectos-dojo
 
-Agora vamos fazer um `fork` desse projeto, clicando no botão `FORK`, conforme a imagem abaixo: 
+Agora vamos fazer um *fork* desse projeto, clicando no botão *FORK*, conforme a imagem abaixo: 
 
 ![forkdoprojeto](https://github.com/objectos/objectos-dojo-img/blob/master/github/9_forkdoprojeto.png?raw=true)
 
-Dar um fork no projeto seria algo como `pegar aquele projeto pra você`, fica sendo a `sua cópia` do projeto, onde você
-pode fazer suas alterações sem modificar o projeto original. 
+Dar um fork no projeto seria algo como **pegar aquele projeto pra você**, fica sendo a **sua cópia** do projeto, onde
+você pode fazer suas alterações sem modificar o projeto original. 
 
 Sempre vamos trabalhar com o nosso fork do projeto, ou seja a nossa versão. 
 
@@ -164,8 +199,8 @@ conforme a imagem abaixo:
 
 ![seu repositorio](https://github.com/objectos/objectos-dojo-img/blob/master/github/11_forkclicarrepositorio.png?raw=true)
 
-Clique então em `objectos-dojo` (conforme mostra sublinhado na imagem acima), e então já deve aparecer o botão `source`
-habilitado (caso contrário, clique nele). 
+Clique então em **objectos-dojo** (conforme mostra sublinhado na imagem acima), e então já deve aparecer o botão 
+**source** habilitado (caso contrário, clique nele). 
 
 ![botao source habilitado](https://github.com/objectos/objectos-dojo-img/blob/master/github/12_fork_endereco_git.png?raw=true) 
 
@@ -189,10 +224,10 @@ Depois que você executou o comando, deve aparecer algo semelhante, confirmando 
     Resolving deltas: 100% (371/371), done.
 
 Esse projeto é um projeto de treinamento, mas lembre-se, em qualquer projeto que você for trabalhar aqui é necessário
-`primeiro fazer um fork do projeto, e então importar, fazendo um clone do seu fork`, para depois começar a trabalhar no
+**primeiro fazer um fork do projeto, e então importar, fazendo um clone do seu fork**, para depois começar a trabalhar no
 projeto. 
 
-## REFERÊNCIAS: 
+## Referências 
 
-http://help.github.com/linux-set-up-git/
+* [Help do Github](http://help.github.com/linux-set-up-git/)
 
