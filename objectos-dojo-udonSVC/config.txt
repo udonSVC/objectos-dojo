@@ -1,2 +1,3 @@
 inserindo a primeira linha no arquivo
 inserindo a segunda linha
+essa e a terceira linha que vou adicionar
